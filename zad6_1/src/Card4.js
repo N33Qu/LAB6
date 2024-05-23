@@ -1,0 +1,15 @@
+import React from 'react';
+
+function Card4(props) {
+    return (
+        <div className="Card">
+            <h2>Bjarne Stroustrup</h2>
+            <img src="https://mdz.cs.pollub.pl/ai/bjarne_stroustrup.jpg" alt="Bjarne Stroustrup"/>
+            <p>1950 - ?</p>
+            <p>Informatyk</p>
+            <p>Dania</p>
+        </div>
+    );
+}
+
+export default Card4;
